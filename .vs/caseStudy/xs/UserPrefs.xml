@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{9B6BB7E1-2C62-4DDF-AA02-5CF1A21E20A1}|Default">
+  <MonoDevelop.Ide.ItemProperties.caseStudy PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="caseStudy/Model/Stock.cs">
+    <Files>
+      <File FileName="caseStudy/Controllers/StockController.cs" Line="26" Column="13" />
+      <File FileName="caseStudy/Model/CompraResponse.cs" />
+      <File FileName="caseStudy/Model/Artista.cs" Line="1" Column="1" />
+      <File FileName="caseStudy/Model/Festival.cs" />
+      <File FileName="caseStudy/Model/Stock.cs" Line="11" Column="2" />
+      <File FileName="caseStudy/Controllers/ComprarController.cs" />
+      <File FileName="caseStudy/Controllers/CartelController.cs" />
+      <File FileName="caseStudy/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="caseStudy" expanded="True">
+            <Node name="caseStudy" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Stock.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
