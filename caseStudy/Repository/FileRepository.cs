@@ -77,14 +77,7 @@ namespace caseStudy.Infrastructure
 
         public Boolean FestivalesVacio()
         {
-            if (festivales == null)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return festivales == null;
         }
 
         public int getCosteSiguienteBloque(int PrecioActual)
