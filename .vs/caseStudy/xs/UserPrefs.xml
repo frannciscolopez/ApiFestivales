@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{9B6BB7E1-2C62-4DDF-AA02-5CF1A21E20A1}|Default">
   <MonoDevelop.Ide.ItemProperties.caseStudy PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="caseStudy/Program.cs">
     <Files>
-      <File FileName="caseStudy/Controllers/CartelController.cs" Line="13" Column="2" />
-      <File FileName="caseStudy/Controllers/ComprarController.cs" Line="15" Column="1" />
-      <File FileName="caseStudy/Controllers/StockController.cs" Line="13" Column="1" />
-      <File FileName="caseStudy/Model/Artista.cs" Line="10" Column="42" />
-      <File FileName="caseStudy/Model/CompraRequest.cs" Line="10" Column="1" />
+      <File FileName="caseStudy/Controllers/CartelController.cs" Line="14" Column="39" />
+      <File FileName="caseStudy/Controllers/ComprarController.cs" Line="5" Column="1" />
+      <File FileName="caseStudy/Controllers/StockController.cs" Line="1" Column="1" />
+      <File FileName="caseStudy/Model/Artista.cs" Line="2" Column="1" />
+      <File FileName="caseStudy/Model/CompraRequest.cs" Line="1" Column="1" />
       <File FileName="caseStudy/Model/CompraResponse.cs" Line="10" Column="1" />
-      <File FileName="caseStudy/Model/Entrada.cs" Line="10" Column="42" />
-      <File FileName="caseStudy/Model/Festival.cs" Line="16" Column="1" />
+      <File FileName="caseStudy/Model/Entrada.cs" Line="1" Column="1" />
+      <File FileName="caseStudy/Model/Festival.cs" Line="1" Column="1" />
       <File FileName="caseStudy/Model/Stock.cs" Line="1" Column="1" />
-      <File FileName="caseStudy/Repository/FileRepository.cs" Line="1" Column="1" />
+      <File FileName="caseStudy/Repository/FileRepository.cs" Line="91" Column="58" />
+      <File FileName="caseStudy/Program.cs" Line="16" Column="1" />
+      <File FileName="caseStudy/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +23,8 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Repository" expanded="True">
-                <Node name="FileRepository.cs" selected="True" />
-              </Node>
+              <Node name="Repository" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using caseStudy.Model;
 
 namespace caseStudy.Infrastructure
@@ -16,7 +15,12 @@ namespace caseStudy.Infrastructure
         public CompraResponse response = new CompraResponse();
 
 
-
+        /// <summary>
+        /// A partir de un nombre de un festival, te coge
+        /// todos los datos del festival de entre todos los festivales
+        /// </summary>
+        /// <param name="nombre_festival"></param>
+        /// <returns></returns>
         public Festival GetFestivalPorNombre(string nombre_festival)
 
         {
@@ -27,7 +31,13 @@ namespace caseStudy.Infrastructure
 
 
         }
-
+        /// <summary>
+        /// A partir de la petición de compra, se devuelve la respuesta
+        /// actualizando la cantidad tontal de entradas y calculando el precio de
+        /// las entradas compradas
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         public CompraResponse GetResponse(CompraRequest request)
         {
 
@@ -48,7 +58,10 @@ namespace caseStudy.Infrastructure
             return response;
 
         }
-
+        /// <summary>
+        /// Devuelve el stock de todos los festivales.
+        /// </summary>
+        /// <returns></returns>
         public List<Stock> GetStock()
         {
             Stock stock;
@@ -68,10 +81,14 @@ namespace caseStudy.Infrastructure
             return TodoStock;
         }
 
+        /// <summary>
+        /// Si los festivales no están cargados del archivo en la lista,
+        /// se cargan.
+        /// </summary>
         public void CargarFestivales()
         {
 
-            var jsonString = File.ReadAllText("festivales.json");
+            var jsonString = File.ReadAllText("festivales.txt");
             festivales = JsonSerializer.Deserialize<List<Festival>>(jsonString);
         }
 
@@ -79,7 +96,11 @@ namespace caseStudy.Infrastructure
         {
             return festivales == null;
         }
-
+        /// <summary>
+        /// Calcula el precio del siguiente bloque de datos
+        /// </summary>
+        /// <param name="PrecioActual"></param>
+        /// <returns></returns>
         public int getCosteSiguienteBloque(int PrecioActual)
         {
             if (PrecioActual == 200)

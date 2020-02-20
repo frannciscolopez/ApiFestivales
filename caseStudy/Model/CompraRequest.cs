@@ -1,5 +1,4 @@
-﻿using System;
-namespace caseStudy.Model
+﻿namespace caseStudy.Model
 {
     public class CompraRequest
     {
