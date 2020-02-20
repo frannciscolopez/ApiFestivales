@@ -2,6 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.caseStudy PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
+      <File FileName="caseStudy/Controllers/CartelController.cs" Line="13" Column="2" />
+      <File FileName="caseStudy/Controllers/ComprarController.cs" Line="15" Column="1" />
+      <File FileName="caseStudy/Controllers/StockController.cs" Line="13" Column="1" />
+      <File FileName="caseStudy/Model/Artista.cs" Line="10" Column="42" />
+      <File FileName="caseStudy/Model/CompraRequest.cs" Line="10" Column="1" />
+      <File FileName="caseStudy/Model/CompraResponse.cs" Line="10" Column="1" />
+      <File FileName="caseStudy/Model/Entrada.cs" Line="10" Column="42" />
+      <File FileName="caseStudy/Model/Festival.cs" Line="16" Column="1" />
+      <File FileName="caseStudy/Model/Stock.cs" Line="1" Column="1" />
       <File FileName="caseStudy/Repository/FileRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>

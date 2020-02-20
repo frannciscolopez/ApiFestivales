@@ -9,6 +9,5 @@ namespace caseStudy
 
         public int Cantidad { get; set; }
 
-
     }
 }

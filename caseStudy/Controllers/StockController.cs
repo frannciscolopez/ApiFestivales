@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace caseStudy.Controllers
-{ 
+{
 
     [ApiController]
     [Route("[controller]")]
@@ -19,11 +19,11 @@ namespace caseStudy.Controllers
         [HttpGet]
         public List<Stock> Get()
         {
-           List<Stock> list = fr.GetStock();
-           return list;
+            List<Stock> list = fr.GetStock();
+            return list;
 
 
-            
+
         }
     }
 }

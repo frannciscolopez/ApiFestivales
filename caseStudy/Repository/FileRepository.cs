@@ -8,7 +8,7 @@ using caseStudy.Model;
 namespace caseStudy.Infrastructure
 {
 
-     
+
     public class FileRepository
     {
         public static List<Festival> festivales;
@@ -27,7 +27,7 @@ namespace caseStudy.Infrastructure
 
 
         }
-                 
+
         public CompraResponse GetResponse(CompraRequest request)
         {
 
@@ -70,9 +70,9 @@ namespace caseStudy.Infrastructure
 
         public void CargarFestivales()
         {
-          
-                var jsonString = File.ReadAllText("festivales.json");
-                festivales = JsonSerializer.Deserialize<List<Festival>>(jsonString);
+
+            var jsonString = File.ReadAllText("festivales.json");
+            festivales = JsonSerializer.Deserialize<List<Festival>>(jsonString);
         }
 
         public Boolean FestivalesVacio()
@@ -90,7 +90,7 @@ namespace caseStudy.Infrastructure
             {
                 return 1000;
             }
-            
+
         }
 
 

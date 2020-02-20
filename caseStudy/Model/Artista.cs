@@ -8,7 +8,5 @@ namespace caseStudy
         public string Nombre { get; set; }
         public string EstiloMusical { get; set; }
         public bool Solista { get; set; }
-
-
     }
 }

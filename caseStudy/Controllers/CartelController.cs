@@ -13,7 +13,7 @@ namespace caseStudy.Controllers
 {
     [ApiController]
     [Route("[controller]")]
- 
+
     public class CartelController : ControllerBase
     {
         public FileRepository fr = new FileRepository();
@@ -22,7 +22,7 @@ namespace caseStudy.Controllers
         public Festival Get(string nombre_festival)
         {
             return fr.GetFestivalPorNombre(nombre_festival);
-            
+
         }
     }
 }
