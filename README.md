@@ -1,7 +1,7 @@
 # ApiFestivales
 Api simple para organizar los carteles, la compra de entradas y el stock de diferentes festivales.
 
--Para provar la api:
+-Para probar la API:
   1. Arrancar el proyecto.
   2. Abrir Postman o herramienta similar para testear ApiRests.
   3. Para lanzar las llamadas:
