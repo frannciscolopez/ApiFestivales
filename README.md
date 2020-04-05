@@ -30,7 +30,7 @@ Api simple para organizar los carteles, la compra de entradas y el stock de dife
     "precio": 200,
     "cantidad": 1350
     }
-3.2 (GET) ~{localDomain}/stock. Ejemplo: http://localhost:5002/Stock
+ 3.2 (GET) ~{localDomain}/stock. Ejemplo: http://localhost:5002/Stock
     Resultado: 
     [
     {
