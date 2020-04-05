@@ -29,8 +29,7 @@ Api simple para organizar los carteles, la compra de entradas y el stock de dife
     "precio": 200,
     "cantidad": 1350
     }
-
-    3.2 (GET) ~{localDomain}/stock. Ejemplo: http://localhost:5002/Stock
+3.2 (GET) ~{localDomain}/stock. Ejemplo: http://localhost:5002/Stock
     Resultado: 
     [
     {
@@ -52,6 +51,7 @@ Api simple para organizar los carteles, la compra de entradas y el stock de dife
         "costeSiguienteBloque": 600
     }
 ]
+    
 
   3.3 (POST){localDomain}/comprar. Ejemplo: http://localhost:5002/Comprar. Un ejemplo de body seria:
   <?xml version = "1.0" encoding = "UTF-8"?>
