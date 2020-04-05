@@ -5,7 +5,8 @@ Api simple para organizar los carteles, la compra de entradas y el stock de dife
   1. Arrancar el proyecto.
   2. Abrir Postman o herramienta similar para testear ApiRests.
   3. Para lanzar las llamadas:
-        3.1 (GET) ~{localDomain}/cartel/{nombre_festival}. Ejemplo: http://localhost:5002/Cartel/Lollapalooza
+        
+3.1 (GET) ~{localDomain}/cartel/{nombre_festival}. Ejemplo: http://localhost:5002/Cartel/Lollapalooza
         Resultado:
         {
     "nombre": "Lollapalooza",
@@ -52,8 +53,7 @@ Api simple para organizar los carteles, la compra de entradas y el stock de dife
     }
 ]
     
-
-  3.3 (POST){localDomain}/comprar. Ejemplo: http://localhost:5002/Comprar. Un ejemplo de body seria:
+3.3 (POST){localDomain}/comprar. Ejemplo: http://localhost:5002/Comprar. Un ejemplo de body seria:
   <?xml version = "1.0" encoding = "UTF-8"?>
 <CompraRequest>
 	<Festival>Tomorrowland</Festival>
