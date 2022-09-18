@@ -1,22 +1,40 @@
-# ApiFestivales
-Api simple para organizar los carteles, la compra de entradas y el stock de diferentes festivales.
+# Festivals API
+Simple api to organize the posters, the purchase of tickets and the stock of different festivals.
 
--Para probar la API:
-  1. Arrancar el proyecto.
-  2. Abrir Postman o herramienta similar para testear ApiRests.
-  3. Para lanzar las llamadas:
-        
-3.1 (GET) ~{localDomain}/cartel/{nombre_festival}. Ejemplo: http://localhost:5002/Cartel/Lollapalooza
-3.2 (GET) ~{localDomain}/stock. Ejemplo: http://localhost:5002/Stock 
-3.3 (POST){localDomain}/comprar. Ejemplo: http://localhost:5002/Comprar. Un ejemplo de body seria:
-  <?xml version = "1.0" encoding = "UTF-8"?>
+### How to test
+ 
+ 
+ 1. CREATE NEW FESTIVAL.
+ ### REQUEST (GET)
+ 
+ http://localhost:5002/Cartel/{festivalName}
+ 
+ 2. RETURN THE STOCK OF TICKETS.
+ ### REQUEST (GET)
+ 
+ http://localhost:5002/Stock 
+ 
+ 3. BUY A TICKET.
+ ### REQUEST (GET)
+ 
+ http://localhost:5002/Comprar
+
+BODY:
+
+```
+ {
 <CompraRequest>
-	<Festival>Tomorrowland</Festival>
-	<Entradas>151</Entradas> 
+	<Festival>{festivalName}</Festival>
+	<Entradas>{numberOfTickets}</Entradas> 
 </CompraRequest>
-Resultado: 
+}
+```
+
+### RESPONSE 
+```
 {
     "costeTotal": 54360,
     "fechaCompra": "2020-02-20T19:45:17.857874+01:00"
 }
+```
 
